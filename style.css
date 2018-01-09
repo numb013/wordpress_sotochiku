@@ -135,7 +135,6 @@ h2, h3, h4, h5, h6 {
   }
   .sns {
    position: absolute;
-   right: 5px;
    top: 66px;
   }
 
@@ -236,7 +235,7 @@ h2, h3, h4, h5, h6 {
 
 
 .about_back_1 {
-    background: url('../sotochiku/images/about_01.jpg');
+    background: url("../wordpress_sotochiku/images/about_01.jpg");
     width: 100vw;
     height: 100vh;
     background-position: center center;
@@ -247,7 +246,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .about_back_2 {
-    background: url('../images/benefit1_b.jpg');
+    background: url('../wordpress_sotochiku/images/benefit1_b.jpg');
     width: 100vw;
     height: 100vh;
     background-position: center center;
@@ -258,7 +257,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .about_back_3 {
-    background: url('../images/about_03.jpg');
+    background: url('../wordpress_sotochiku/images/about_03.jpg');
     width: 100vw;
     height: 100vh;
     background-position: center center;
@@ -271,7 +270,7 @@ h2, h3, h4, h5, h6 {
 
 
 .image_back {
-    background-image: url('../images/about1.jpg');
+    background-image: url('../wordpress_sotochiku/images/about1.jpg');
     width: 100vw;
     height: 100vh;
     background-position: center center;
@@ -282,7 +281,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .image_back_4 {
-    background-image: url('../images/providing_02.jpg');
+    background-image: url('../wordpress_sotochiku/images/providing_02.jpg');
     width: 100vw;
     height: 100vh;
     background-position: center center;
@@ -299,7 +298,7 @@ h2, h3, h4, h5, h6 {
 
 
 .single_back {
-    background-image: url('../images/benefit1_b.jpg');
+    background-image: url('../wordpress_sotochiku/images/benefit1_b.jpg');
     width: 100vw;
     height: 100vh;
     background-position: center center;
@@ -616,6 +615,7 @@ background-image: url(../images/top2.jpg);
   -ms-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
   -o-box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
   box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.19);
+  font-weight: bold;
 }
 
 
@@ -1978,6 +1978,10 @@ margin-right: 100%;
   .swiper-slide img{
     width: 100%;
   }
+
+.swiper-button-next, .swiper-button-prev {
+  top:25%;
+}
 
 }
 

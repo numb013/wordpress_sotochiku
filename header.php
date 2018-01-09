@@ -23,7 +23,7 @@
 <?php $header_text_color = get_header_textcolor();?>
 <header role="banner" id="fh5co-header">
 	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
+		<div class="container" style="width: 100%">
 		<div class="navbar-header">
 			<!-- Mobile Toggle Menu Button -->
 			<a href="index.html" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>

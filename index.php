@@ -58,16 +58,24 @@ get_header(); ?>
           <div class="text-inner">
             <div class="row">
               <div class="col-md-10 col-md-offset-1 to-animate">
-                <p style="color: #fff;">Bring the weather exposed walls to the interior.</h2>
-                  <h1 style="font-size: 30px;">外&nbsp;&nbsp;&nbsp;&nbsp;築</h1>
-                <p style="color: #fff;">s o t o c h i k u</h2>
+                <p style="color: #fff;font-size: 17px; margin-top: 150px;">Bring the weather exposed walls to the interior.</h2>
+                  <br>
+                  <p style="color: #fff;font-size:10px;margin-top: 48px;">s o t o c h i k u</p>
+                  <h1 style="font-size: 25px;">外&nbsp;&nbsp;&nbsp;&nbsp;築</h1>
+                  <br>
+                  <br>
+                  <br>                  
+                  <br>
+<img src="<?php echo get_template_directory_uri(); ?>/images/gf_logo_b.png" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive" style="width: 110px; margin:0 auto;"/>
               </div>
-
             </div>
           </div>
 
           <div>
             <ul class='sns'>
+              <li class='sns_imag'><a href="https://www.facebook.com/pg/Gridframe1998/about/"  target="_blank">
+<img src="<?php echo get_template_directory_uri(); ?>/images/g_logo.png" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive" />
+              </li>
               <li class='sns_imag'><a href="https://www.facebook.com/pg/Gridframe1998/about/"  target="_blank">
 <img src="<?php echo get_template_directory_uri(); ?>/images/f_logo.png" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive" />
               </li>
