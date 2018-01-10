@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Front Page 
+ * Template Name: works
  * The template used for displaying fullwidth page content in fullwidth.php
  *
  * @package ultrabootstrap
