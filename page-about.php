@@ -105,9 +105,15 @@ get_header(); ?>
 
 
 <div class="swiper-container">
+
+<div class="swiper-title">
+<h2>素材を知る</h2>
+<p>SOTOCHIKUには、外部にあった古びた素材を内装に持ち込む”探索”と、
+海や土、気候や生き物の習性を利用する”創作”の２つの方法があります。</p>
+</div>
 <div class="swiper-wrapper">
 <div class="swiper-slide">
-        <div>
+<div>
 <img src="<?php echo get_template_directory_uri(); ?>/images/about_10.jpg" class="img-responsive">
           <h2>探索</h2>
           <p class="swiper-text">Tansaku</p>
