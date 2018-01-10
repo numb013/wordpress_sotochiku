@@ -157,36 +157,30 @@ get_header(); ?>
 
 <style>
 @media (min-width: 850px) {
-
-   /* ↓ページレイアウト */
    .page-cover {
-      display: flex;       /* フレキシブルボックスでレイアウト */
-      flex-direction: row; /* 横並びにする */
+      display: flex;
+      flex-direction: row;
       width: 100%;
    }
 
-   /* ▼メインカラムの装飾 */
    .main-column {
-      order: 2;   /* 2番目に表示 */
+      order: 2;
       width: 60%;
    }
-   /* ▽サイドカラムの装飾 */
+
    .side-column {
-      order: 1;   /* 1番目に表示 */
+      order: 1;
       width: 40%;
    }
 
-   /* ▼メインカラムの装飾 */
    .main-column1 {
-      order: 2;   /* 2番目に表示 */
+      order: 2;
       width: 60%;
    }
-   /* ▽サイドカラムの装飾 */
+
    .side-column1 {
-      order: 1;   /* 1番目に表示 */
+      order: 1;
       width: 40%;
    }
-
-
 }
 </style>
