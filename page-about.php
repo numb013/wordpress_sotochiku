@@ -30,7 +30,7 @@ get_header(); ?>
         <div class="text-wrap main_img">
           <div class="text-inner">
             <div class="row effect">
-              <div class="col-md-10 col-md-offset-1">
+              <div class="col-md-offset-1">
                 <div class="call-action">
                   <div class="call-width">
                     <span class="tow_buttom_1 material_buttom">SOTOCHIKU素材</span>
@@ -116,7 +116,7 @@ get_header(); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/about_10.jpg" class="img-responsive">
           <h2>探索</h2>
           <p class="swiper-text">Tansaku</p>
-          <p style="padding: 10px;">
+          <p>
           SOTOCHIKUには、外部にあった古びた素材を内装に持ち込む”探索”と、海や気候や生き物
           の習性を利用し内装に持ち込む”創作”の２つの方法があります。いずれにせよ作り手にも最
           終的にはどのような表情になるかは予想できません。決して無責任でそうしている訳ではなく、
@@ -130,7 +130,7 @@ get_header(); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/about_06_06.jpg" class="img-responsive">
           <h2>創作</h2>
         <p class="swiper-text">Sousaku</p>
-          <p style="padding: 10px;">
+          <p>
           SOTOCHIKUには、外部にあった古びた素材を内装に持ち込む”探索”と、海や気候や生き物
           の習性を利用し内装に持ち込む”創作”の２つの方法があります。いずれにせよ作り手にも最
           終的にはどのような表情になるかは予想できません。決して無責任でそうしている訳ではなく、
@@ -177,6 +177,8 @@ get_header(); ?>
   そのような空間ができれば未来に生まれ来る人達へも、現在や過去を繋げていく役割を担っていくものになるでしょう。今はほぼすべての空間が新しい材料だけを使用して、いわば「核家族的」につくられていますが、SOTOCHIKUによってかつての3世代、4世代で一緒に住んでいた頃の温度を取り戻していくことにつながるのかもしれないと思っています。</p>
             </div>
           </div>
+
+<br>
 <div class="cycle_imag_sp">
   <img src="<?php echo get_template_directory_uri(); ?>/images/sp_about_05.jpg" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive" style="width: 100%;">
 </div>
@@ -202,10 +204,11 @@ get_header(); ?>
         <div class="row">
           <div class="col-md-12">
             <div class="team-box text-center to-animate-2">
-              <div class="user flow" style="z-index: 1;">
+              <span class="flow_line"></span>
+              <div class="user flow">
 <img src="<?php echo get_template_directory_uri(); ?>/images/flow01.jpg" class="img-reponsive" alt="Roger Garfield">
               </div>
-              <span class="flow_line"></span>
+
               <div class="flow_text about_flow_text">
                 <h3>まずは、ざっくばらんに何でもお話しましょう。</h3>
                 <p>ここではクライアントと同じ方向を向くことが第一の目的です。お店や空間のコンセプトを含めた様々な事項を確認しながらクライアントがつくりたいお店や空間の空気感、大切にしていきたい事を共有します。また、わたしたちは早い段階に決定を急がないように気をつけています。例えば、初期段階では、つくりたいお店の仕上げ等を具体的に伺いません。そうするとイメージが固定されるからです。例えば、床はどのような素材が良いですか？ではなく、床について大切にしたい、守りたい条件を共有したいと思います。さらにクライアントの「らしさ」を引き出すような、質問もさせていただきます。例えば昔熱中していたスポーツや趣味のお話などです。ここでのお話が、よい空間をつくりだす大切なソースになります。同時に、弊社独特のコンセプトや進め方をご理解していただきます。お互いの信頼関係を築くことが、よりよいお店づくりの第一歩です。（お打ち合わせは、２時間以上にわたることがあります。ちょっとエネルギー使いますが、とても大切なミーティングですので宜しくお願いします）</p>

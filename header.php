@@ -26,7 +26,7 @@
 		<div class="container" style="width: 100%">
 		<div class="navbar-header">
 			<!-- Mobile Toggle Menu Button -->
-			<a href="index.html" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+			<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<h1 class="navbar-brand" style="color:<?php echo "#". $header_text_color;?>"><?php echo bloginfo( 'name' ); ?></h1>
 			</a>  

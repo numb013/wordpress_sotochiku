@@ -10,7 +10,7 @@ get_header(); ?>
     <div class="container">
       <div class="row">
         <div class="animate-box">
-          <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+          <div class="col-md-8 col-md-offset-2 text-center fh5co-heading business_h1">
             <h1>こんなことができる。<br>SOTOCHIKUを用いた空間の形。</h1>
             <p>
               外にあったものを内部に持ち込むSOTOCHIKUは様々な用途に用いることが可能です。
@@ -102,7 +102,7 @@ get_header(); ?>
               </div>
             </div>
             <div class="col-lg-12 col-md-12">
-              <div class="fh5co-blog animate-box">
+              <div class="fh5co-blog animate-box business_box">
 <img src="<?php echo get_template_directory_uri(); ?>/images/business_07.jpg" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive" />
 
               </div>

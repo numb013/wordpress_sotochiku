@@ -47,25 +47,33 @@ get_header(); ?>
 
         <div class="col-lg-3 col-md-3 pro-md">
           <div class="fh5co-blog animate-box">
-            <a href="toukou.html"><img class="img-responsive" src="images/providing_01.jpg" alt=""></a>
+            <a href="toukou.html">
+<img src="<?php echo get_template_directory_uri(); ?>/images/providing_01.jpg" class="img-responsive">
+            </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-3 pro-md">
           <div class="fh5co-blog animate-box">
-            <a href="toukou.html"><img class="img-responsive" src="images/providing_01.jpg" alt=""></a>
+            <a href="toukou.html">
+<img src="<?php echo get_template_directory_uri(); ?>/images/providing_01.jpg" class="img-responsive">
+            </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-3 pro-md">
           <div class="fh5co-blog animate-box">
-            <a href="toukou.html"><img class="img-responsive" src="images/providing_01.jpg" alt=""></a>
+            <a href="toukou.html">
+<img src="<?php echo get_template_directory_uri(); ?>/images/providing_01.jpg" class="img-responsive">
+            </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-3 pro-md">
           <div class="fh5co-blog animate-box">
-            <a href="toukou.html"><img class="img-responsive" src="images/providing_01.jpg" alt=""></a>
+            <a href="toukou.html">
+<img src="<?php echo get_template_directory_uri(); ?>/images/providing_01.jpg" class="img-responsive">
+            </a>
           </div>
         </div>
 
