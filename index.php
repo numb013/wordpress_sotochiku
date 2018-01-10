@@ -56,7 +56,7 @@ get_header(); ?>
       <div class="container">
         <div class="text-wrap main_img">
           <div class="text-inner">
-            <div class="row">
+            <div class="row box">
               <div class="col-md-10 col-md-offset-1 to-animate">
                 <p style="color: #fff;font-size: 17px; margin-top: 150px;">Bring the weather exposed walls to the interior.</h2>
                   <br>

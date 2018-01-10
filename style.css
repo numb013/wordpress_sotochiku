@@ -1838,12 +1838,11 @@ background-image: url(../images/top2.jpg);
 
 .flow_line {
   width: 6px;
-  background-color: #565656;
+  background-color: #5a5a5a;
   height: 516%;
   position: absolute;
   left: 103px;
   top: 50px;
-  z-index: -1;
 }
 @media screen and (max-width: 768px) {
   .flow_line {
@@ -1979,6 +1978,33 @@ figure {
     float: left;
 }
 
+
+.effect {
+  transition: .8s;
+} 
+.effect div {
+  margin: auto;
+  transition: .8s;
+  transition-delay: .8s;
+}
+
+
+@keyframes my-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.box {  
+  /* .boxが「my-fade-in」で状態変化するように指定 */
+  animation-name:     my-fade-in;
+  animation-duration: 3s;
+}
+
+
 @media screen and (max-width: 400px) {
   .swiper-slide {
     font-size: 14px;
@@ -1992,8 +2018,5 @@ figure {
 }
 
 }
-
-
-/*# sourceMappingURL=style.css.map */
 
 

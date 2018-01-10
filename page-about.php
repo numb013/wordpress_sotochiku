@@ -29,8 +29,8 @@ get_header(); ?>
       <div class="container">
         <div class="text-wrap main_img">
           <div class="text-inner">
-            <div class="row">
-              <div class="col-md-10 col-md-offset-1 to-animate">
+            <div class="row effect">
+              <div class="col-md-10 col-md-offset-1">
                 <div class="call-action">
                   <div class="call-width">
                     <span class="tow_buttom_1 material_buttom">SOTOCHIKU素材</span>
@@ -57,7 +57,6 @@ get_header(); ?>
         </div>
       </div>
   </section>
-
 <!-- 
 
 <div class="swiper-container" style="background-color: #e5e5e5;">
@@ -146,15 +145,6 @@ get_header(); ?>
 <div class="swiper-button-next"></div>
 <div class="swiper-button-prev"></div>
 </div>
-
-
-
-
-
-
-
-
-
 
   <section id="fh5co-testimony" data-section="team">
     <div class="container">
@@ -313,16 +303,4 @@ SOTOCHIKU素材とアイディアが積み重なって実際にどのような�
         prevEl: '.swiper-button-prev',
       },
     });
-  </script>
-
-<!--   <script>
-    var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 'auto',
-    spaceBetween: 10,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    });
-  </script> -->
-  
+</script>
