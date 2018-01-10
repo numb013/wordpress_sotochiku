@@ -1979,9 +1979,7 @@ figure {
 }
 
 
-.effect {
-  transition: .8s;
-} 
+
 .effect div {
   margin: auto;
   transition: .8s;
