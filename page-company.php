@@ -9,7 +9,7 @@ get_header(); ?>
 
 
 
-<section id="fh5co-home" class ="about_back_3" data-section="home">
+<section id="fh5co-home" class ="about_back_4" data-section="home">
 </section>
 
 
@@ -19,56 +19,61 @@ get_header(); ?>
 
 
 <div class="page-cover">
- <div class="main-column">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/gf_logo.png" class="img-responsive" style="width: 35%;">
+ <div class="main-column company_box">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/gf_logo.png" class="img-responsive" style="width: 25%;">
   <div class="company_block">
-    <h3>
-      We hope our store will open your eyes
-      to the beauty and soulfulness of typographys.
-    </h3>
     <p>
-      SOTOCHIKUはGRIDFRAMEという空間デザインの会社から
-      生まれたプロジェクトです。表参道の事務所でデザインを入念
-      に考え、墨田区にある自社工場で実際に形にします。私たちは
-      本来外にあって風雨に晒された壁を内装に持ち込むコンセプト
-      が支流になることを願います。
-      通常の空間デザインを希望の方は上記ロゴから弊社ホームページ
-      へお越しください。
+SOTOCHIKUは空間デザインの会社GRIDFRAMEから生まれたプロジェ
+クトです。表参道に事務所を構え、モノづくりの街である錦糸町に自社
+工場を持ち、鉄等の金属を主軸に、木、ガラス、革、左官材料、漆等様
+々な材料を用いて自社でデザインから製作、施工までを行っています。
+自分たちで自在につくることができるからこそ、ご予算に合わせた空間
+の提案も可能です。本当に良い空間を求めて、この体制でつくっている
+ため、1か月に２～３件しかつくることができません。そのようにして、
+20年目の現在までにわずか４００件ほどの空間を丁寧に手がけ、クライ
+アントが望まれる価値の実現をお手伝いさせていただいてきました。
+SOTOCHIKUとは異なるコンセプトで空間デザインを承っております。ご
+希望の方は弊社ホームページへお越しください。
+    </p>
+    <p>
+      >> 『挑戦するクライアントとともに』　GRIDFRAME HPはこちら
     </p>
   </div>
 </div>
          <div class="side-column">
-                <div class="fh5co-blog animate-box">
-<img src="<?php echo get_template_directory_uri(); ?>/images/project-4.jpg" class="img-responsive">
+                <div class="fh5co-blog animate-box company_box">
+<img src="<?php echo get_template_directory_uri(); ?>/images/company_1.jpg" class="img-responsive">
                 </div>
-                <div class="fh5co-blog animate-box">
-<img src="<?php echo get_template_directory_uri(); ?>/images/project-4.jpg" class="img-responsive">
+                <div class="fh5co-blog animate-box company_box">
+<img src="<?php echo get_template_directory_uri(); ?>/images/company_2.jpg" class="img-responsive">
                 </div>
          </div>
       </div>
 
 
 <div class="page-cover">
- <div class="main-column1">
+ <div class="main-column1 company_box">
     <img src="<?php echo get_template_directory_uri(); ?>/images/synesrogo.png" class="img-responsive" style="width: 35%;">
   <div class="company_block">
-
     <p>
-海外出店する人のための店舗プロデュース【シネス】。1000年後の
-未来は、《今のあなた》がつくる国内・海外出店する人のための店舗
-デザイン・建築・町づくりをプロデュース。
+海外出店する人のための店舗デザイン　シネス事業部。
+グリッドフレームが、 国内から海外へ、または、海外から国内へ新しい一歩を踏み
+出す、挑戦するクライアントのために立ち上げたプロジェクトです。国内から海外
+市場へ挑戦する方には、世界のどこの国でも対応いたします。海外から国内市場へ
+挑戦される方には、英語や中国語に堪能なスタッフが、設計・施工はもちろん、物
+件探しや法人設立のお手伝いまでさせていただきます。
+    </p>
+    <p>
+      >> 『地球的視野で活躍する方へ』　Synes HPはこちら
     </p>
   </div>
 </div>
          <div class="side-column1">
-                <div class="fh5co-blog animate-box">
-<img src="<?php echo get_template_directory_uri(); ?>/images/project-4.jpg" class="img-responsive">
+                <div class="fh5co-blog animate-box company_box">
+<img src="<?php echo get_template_directory_uri(); ?>/images/company_3.jpg" class="img-responsive">
                 </div>
          </div>
       </div>
-
-
-
     </div>
   </div>
 </section>
@@ -85,15 +90,8 @@ get_header(); ?>
           </div>
         </div>
         <div class="row">
-
-
-
           <div class="col-md-12">
             <div class="team-box text-center to-animate-2">
-
-
-
-
 <div class="company">
           <dl>
             <dt>商号</dt>

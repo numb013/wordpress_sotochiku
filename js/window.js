@@ -11,7 +11,13 @@ $(window).load(function() {
 
 jQuery(function($) {
     $('.bg-slider').bgSwitcher({
-        images: ['../sotochiku/images/top1.jpg','../sotochiku/images/top2.jpg','../sotochiku/images/top3.jpg'], // 切り替える背景画像を指定
+        images: [
+			    '../wp-content/themes/wordpress_sotochiku/images/top1.jpg',
+				 '../wp-content/themes/wordpress_sotochiku/images/top2.jpg',
+				 '../wp-content/themes/wordpress_sotochiku/images/top3.jpg',
+				 '../wp-content/themes/wordpress_sotochiku/images/top4.jpg',
+				 '../wp-content/themes/wordpress_sotochiku/images/top5.jpg'
+		],
     });
 });
 

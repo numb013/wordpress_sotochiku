@@ -71,10 +71,10 @@ get_header(); ?>
 
         <div class="col-lg-3 col-md-3 pro-md">
           <div class="fh5co-blog animate-box">
-            <a href="toukou.html">
+			  <a href="toukou.html">
 <img src="<?php echo get_template_directory_uri(); ?>/images/providing_01.jpg" class="img-responsive">
             </a>
-          </div>
+			</div>
         </div>
 
       </div>
@@ -84,7 +84,27 @@ get_header(); ?>
   </section>
 
 
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.11';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
+  <section id="fh5co-testimony" data-section="testimony">
+    <div class="container">
+      <div class="row">
+
+		<div id="pageplugin">
+			<div class="fb-page" data-href="https://www.facebook.com/Gridframe1998/" data-tabs="timeline" data-width="500" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Gridframe1998/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Gridframe1998/">GRIDFRAME　グリッドフレーム　/ 空間デザイン</a></blockquote></div>
+		</div>
+		</div>
+
+    </div>
+  </section>		  
+		  
 
   <section id="fh5co-testimony" data-section="testimony">
     <div class="container">
@@ -174,3 +194,26 @@ get_header(); ?>
       </div>
     </div>
   </section>
+
+<style>
+	#pageplugin {
+	    text-align: center;
+		width:100%;
+	}
+</style>		  
+
+<script type="text/javascript">
+    $(window).load(function () {
+        var htmlStr = $('#pageplugin').html();
+        var timer = false;
+        $(window).resize(function () {
+            if (timer !== false) {
+                clearTimeout(timer);
+            }
+            timer = setTimeout(function() {
+                $('#pageplugin').html(htmlStr);
+                window.FB.XFBML.parse();
+            }, 200);
+        });
+    });
+</script>

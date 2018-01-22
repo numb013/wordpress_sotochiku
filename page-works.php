@@ -18,17 +18,13 @@ $query = new WP_Query(
 );
 ?>
 
-
-
-
-
   <section id="fh5co-testimony" class="testimony_top" data-section="testimony">
     <div class="container">
       <div class="row">
         <div class="animate-box">
           <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
             <h1>WORKS</h1>
-            <p>Construction examples of proacessing</p>
+            <p style="text-align: center;">Construction examples of proacessing</p>
           </div>
         </div>
 
@@ -68,3 +64,8 @@ if ( $query->have_posts() ) : ?>
     </div>
   </section>
 
+<?php 
+  $page_info = get_page_by_path('business');
+  $page = get_post($page_info);
+  echo $page->post_content;
+?>
