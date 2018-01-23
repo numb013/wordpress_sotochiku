@@ -102,10 +102,10 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  color: #383838;
-  font-size: 14.35px;
-  line-height: 39px;
-  letter-spacing: 0.5px;
+    color: #383838;
+    font-size: 14.35px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
 }
 h1 {
   font-size: 23.45px;
@@ -1240,7 +1240,7 @@ background-image: url(../images/top2.jpg);
   display: block;
   width: 35px;
   height: 2px;
-  background: #d73930;
+  background: #6f6f6f;
 }
 #fh5co-footer .copy-right {
   position: relative;
@@ -2159,70 +2159,139 @@ figure {
     padding: 14px;
 }
 
+select{
+    outline:none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+}
+select option{
+  background-color: #fff;
+  color: #333;
+}
+select::-ms-expand {
+  display: none;
+}
+select:-moz-focusring { 
+  color: transparent; 
+  text-shadow: 0 0 0 #828c9a;
+}
 
-/* #fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="name"],
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="text"],
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="email"],
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="file"],
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap textarea {
-  font-size: 14px;
-    width: 45%;
+.select-wrap:before {
+    z-index: 1;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    content: "\f123";
+    font-family: "IonIcons";
+    line-height: 43px;
+    color: #fff;
+    pointer-events: none;
+}
+
+.wpcf7-form-control {
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #b3b3b3;
+    background-color: #3e3f47;
+    border: 1px solid #3e3f47;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+label.area{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
     float: left;
-      margin: 10px;
-} */
+    padding: 10px;
+    width: 50%;
+    color: #969696;
+}
 
-/* @media screen and (max-width: 768px) {
-  #fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="name"],
-  #fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="text"],
-  #fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="email"],
-  #fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="file"],
-  #fh5co-footer .wpcf7-form .wpcf7-form-control-wrap textarea {
+
+label.textarea{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 100%;
+    color: #969696;
+}
+
+#fh5co-footer .wpcf7-form .form-group input[type="name"],
+#fh5co-footer .wpcf7-form .form-group input[type="text"],
+#fh5co-footer .wpcf7-form .form-group input[type="email"],
+#fh5co-footer .wpcf7-form .form-group input[type="tel"],
+#fh5co-footer .wpcf7-form .form-group input[type="file"],
+#fh5co-footer .wpcf7-form .form-group textarea {
+  font-size: 14px;
+  width: 100%;
+  float: left;
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-footer .wpcf7-form .form-group input[type="name"],
+  #fh5co-footer .wpcf7-form .form-group input[type="text"],
+  #fh5co-footer .wpcf7-form .form-group input[type="email"],
+  #fh5co-footer .wpcf7-form .form-group input[type="tel"],
+  #fh5co-footer .wpcf7-form .form-group input[type="file"],
+  #fh5co-footer .wpcf7-form .form-group textarea {
     font-size: 14px;
     width: 92%;
     float: left;
-    margin: 10px;
+    margin: 5px 0;
+  }
+  label.area{
+      padding: 0px;
+      width: 100%;
   }
 }
- */
 
-@media screen and (min-width: 700px) {
-	.wpcf7-form label.area{
-		float:left;
-		width:50%;
-	}
-}
-
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="name"]::-webkit-input-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="text"]::-webkit-input-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="email"]::-webkit-input-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="select"]::-webkit-input-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap textarea::-webkit-input-placeholder {
+#fh5co-footer .wpcf7-form .form-group input[type="name"]::-webkit-input-placeholder,
+#fh5co-footer .wpcf7-form .form-group input[type="text"]::-webkit-input-placeholder,
+#fh5co-footer .wpcf7-form .form-group input[type="email"]::-webkit-input-placeholder,
+#fh5co-footer .wpcf7-form .form-group input[type="tel"]::-webkit-input-placeholder,
+#fh5co-footer .wpcf7-form .form-group textarea::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="name"]:-moz-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="text"]:-moz-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="email"]:-moz-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="select"]:-moz-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap textarea:-moz-placeholder {
+#fh5co-footer .wpcf7-form .form-group input[type="name"]:-moz-placeholder,
+#fh5co-footer .wpcf7-form .form-group input[type="text"]:-moz-placeholder,
+#fh5co-footer .wpcf7-form .form-group input[type="email"]:-moz-placeholder,
+#fh5co-footer .wpcf7-form .form-group input[type="tel"]:-moz-placeholder,
+#fh5co-footer .wpcf7-form .form-group textarea:-moz-placeholder {
   /* Firefox 18- */
   color: rgba(255, 255, 255, 0.5);
 }
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="name"]::-moz-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="text"]::-moz-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="email"]::-moz-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="select"]::-moz-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap textarea::-moz-placeholder {
+#fh5co-footer .wpcf7-form .form-group input[type="name"]::-moz-placeholder,
+#fh5co-footer .wpcf7-form .form-group input[type="text"]::-moz-placeholder,
+#fh5co-footer .wpcf7-form .form-group input[type="email"]::-moz-placeholder,
+#fh5co-footer .wpcf7-form .form-group input[type="tel"]::-moz-placeholder,
+#fh5co-footer .wpcf7-form .form-group textarea::-moz-placeholder {
   /* Firefox 19+ */
   color: rgba(255, 255, 255, 0.5);
 }
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="name"]:-ms-input-placeholder,
-#fh5co-footer .wpcf7-form .formwpcf7-form-control-wrap input[type="text"]:-ms-input-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="email"]:-ms-input-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input[type="select"]:-ms-input-placeholder,
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap textarea:-ms-input-placeholder {
+#fh5co-footer .wpcf7-form .form-group input[type="name"]:-ms-input-placeholder,
+#fh5co-footer .wpcf7-form .form-group input[type="text"]:-ms-input-placeholder,
+#fh5co-footer .wpcf7-form .form-group input[type="email"]:-ms-input-placeholder,
+#fh5co-footer .wpcf7-form .form-group input[type="tel"]:-ms-input-placeholder,
+#fh5co-footer .wpcf7-form .form-group textarea:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap input {
+#fh5co-footer .wpcf7-form .form-group input {
   color: #fff;
   background: transparent;
   border: none;
@@ -2230,16 +2299,14 @@ figure {
   background: #3e3f47;
   box-shadow: none;
 }
-#fh5co-footer .wpcf7-form .wpcf7-form-control-wrap textarea {
+#fh5co-footer .wpcf7-form .form-group textarea {
   color: #fff;
   background: transparent;
   border: none;
   background: #3e3f47;
   box-shadow: none;
-  width: １００%;
+  height: 200px;
 }
-
-
 
 
 

@@ -14,7 +14,7 @@ get_header(); ?>
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<h1>MATERIAL</h1>
 						<p>あつめられたSOTOCHIKU素材</p>
-						<br><br>
+						<br>
 						<p>
 							SOTOCHIKUの素材には外部にあった古びた素材を内装に持ち込む”探索”と、 海や土、
 							気候や生き物の習性を利用する”創作”の２つの方法があります。過去に私たちが扱った
