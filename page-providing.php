@@ -103,8 +103,8 @@ get_header(); ?>
 		</div>
 
     </div>
-  </section>		  
-		  
+  </section>
+
 
   <section id="fh5co-testimony" data-section="testimony">
     <div class="container">
@@ -121,8 +121,8 @@ get_header(); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/project-4.jpg" class="img-responsive">
             </a>
             <div class="blog-text">
-              <h3>手順その1</h3>
-            </div> 
+              <p>手順その1</p>
+            </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-6">
@@ -131,8 +131,8 @@ get_header(); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/project-4.jpg" class="img-responsive">
             </a>
             <div class="blog-text">
-              <h3>手順その2</h3>
-            </div> 
+              <p>手順その2</p>
+            </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-6">
@@ -141,8 +141,8 @@ get_header(); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/project-4.jpg" class="img-responsive">
             </a>
             <div class="blog-text">
-              <h3>手順その3</h3>
-            </div> 
+              <p>手順その3</p>
+            </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-6">
@@ -151,8 +151,8 @@ get_header(); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/project-4.jpg" class="img-responsive">
             </a>
             <div class="blog-text">
-              <h3>手順その4</h3>
-            </div> 
+              <p>手順その4</p>
+            </div>
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@ get_header(); ?>
     </div>
   </section>
 
-  
+
   <section id="fh5co-home" class ="image_back_4" data-section="home" style="padding: 30px 0;">
     <div class="container">
       <div class="text-wrap">
@@ -169,7 +169,7 @@ get_header(); ?>
 
           <div class="row">
             <div class="col-md-10 col-md-offset-1 to-animate providing_contact">
-              <h1>自分のＳＯＴＯＣＨＩＫＵ素材で店舗をつくりたい方へ</h1>
+              <h2>自分のＳＯＴＯＣＨＩＫＵ素材で店舗をつくりたい方へ</h2>
               <p style="color: #fff;">素材提供して頂ける人たちの中に『移転後の新店舗に前店舗の一部分を素材として持ち込みたい』という声を頂きます。
               そういった場合も解体→素材の採取→店舗設計施工とノンストップでお受けさせて頂いております。また素材提供のついでに解体もして欲しいといった場合も、
               通常の解体の後そのまま必要素材を採取させて頂くことも可能です。</p>
@@ -181,7 +181,7 @@ get_header(); ?>
                 </div>
               </div>
 
-              <h3 style="color: #fff;">上記の場合審査があるので、一度お問い合わせ下さい。</h3>
+              <p style="color: #fff; margin:40px auto">上記の場合審査があるので、一度お問い合わせ下さい。</p>
 
               <div class="call-to-action">
                 <a href="contact.html" class="download_2">お問合わせ</a>
@@ -200,7 +200,7 @@ get_header(); ?>
 	    text-align: center;
 		width:100%;
 	}
-</style>		  
+</style>
 
 <script type="text/javascript">
     $(window).load(function () {

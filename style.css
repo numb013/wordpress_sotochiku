@@ -67,7 +67,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 /* =======================================================
 *
-*   Template Style 
+*   Template Style
 *   Edit this section
 *
 * ======================================================= */
@@ -77,7 +77,7 @@ html {
 }
 body {
 /*  font-family: "Prata", serif;*/
-  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-family:  'Yu Mincho TT M1215162', serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 1.6;
@@ -103,10 +103,27 @@ a:hover, a:active, a:focus {
 
 p {
     color: #383838;
-    font-size: 14.35px;
+    font-size: 12px;
     line-height: 30px;
     letter-spacing: 0.5px;
+    width: 646px;
+    margin: 0 auto;
 }
+p {
+    color: #383838;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    width: 646px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  p {
+      width: 90%;
+  }
+}
+
 h1 {
   font-size: 23.45px;
 }
@@ -115,7 +132,7 @@ h2, h3, h4, h5, h6 {
   color: #000;
   font-weight: 400;
   margin: 0 0 5px 0;
-  font-size: 23.45px;
+  font-size: 19px;
 }
 
 ::-webkit-selection {
@@ -501,16 +518,16 @@ img {
 background-image: url(../images/top2.jpg);
   /* 画像を常に天地左右の中央に配置 */
   background-position: center center;
-   
+
   /* 画像をタイル状に繰り返し表示しない */
   background-repeat: no-repeat;
-   
+
   /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
   background-attachment: fixed;
-   
+
   /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
   background-size: cover;
-   
+
   /* 背景画像が読み込まれる前に表示される背景のカラー */
   background-color: #464646;
 
@@ -549,7 +566,6 @@ background-image: url(../images/top2.jpg);
 }
 
 #fh5co-home .text-wrap p{
-  width: 80%;
   margin: 0 auto;
 }
 
@@ -558,8 +574,7 @@ background-image: url(../images/top2.jpg);
   vertical-align: middle;
   text-align: center;
 }
-#fh5co-home .text-inner h1 {
-  font-size: 24px;
+#fh5co-home .text-inner h2 {
   text-transform: uppercase;
   color: #fff;
   margin: 0 0 20px 0;
@@ -1103,7 +1118,6 @@ background-image: url(../images/top2.jpg);
 #fh5co-team .team-box h3 {
   margin-bottom: 10px;
   font-weight: 700;
-  font-size: 16px;
   text-transform: uppercase;
 }
 #fh5co-team .team-box .position {
@@ -1159,7 +1173,6 @@ background-image: url(../images/top2.jpg);
 }
 .section-heading h2 {
   margin: 0px;
-  font-size: 26px;
   color: #000;
   position: relative;
   display: block;
@@ -1562,8 +1575,7 @@ background-image: url(../images/top2.jpg);
     margin: 40px 0;
 }
 
-.providing_contact h3 {
-    font-size: 18px;
+.providing_contact p {
     margin: 40px 0;
 }
 @media screen and (max-width: 768px) {
@@ -1719,6 +1731,7 @@ background-image: url(../images/top2.jpg);
   font-size: 12px;
   margin-bottom: 10px;
   line-height: 1.5;
+  width: 100%;
 }
 .fh5co-blog .work-text p {
   float: right;
@@ -1784,14 +1797,18 @@ background-image: url(../images/top2.jpg);
   font-weight: bold;
 }
 
+.call-width_1 a {
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
 .dismantling_buttom {
-  width: 22%;
+  width: 35%;
   float: right;
 }
 
 .material_buttom {
   float: left;
-  width: 25%;
+  width: 40%;
 }
 
 @media screen and (max-width: 768px) {
@@ -1801,7 +1818,7 @@ width: 47%;
   }
 
   .dismantling_buttom {
-    width: 43%;
+    width: 33%;
   }
   .call-action .call-width {
       width: 100%;
@@ -1875,19 +1892,40 @@ width: 47%;
 .flow_line {
     width: 7px;
     background-color: #ffffff29;
-    height: 417%;
+    height: 500%;
     position: absolute;
     left: 101px;
     top: 50px;
 }
+
+@media screen and (min-width: 991px) {
+  .flow_line {
+height: 490%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flow_line {
+      height: 560%;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .flow_line {
       width: 19px;
-      height: 503%;
+      height: 529%;
       position: absolute;
       left: 47%;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .flow_line {
+      height: 494%;
+  }
+}
+
 .swiper-title {
   padding: 40px 0;
 }
@@ -1895,7 +1933,6 @@ width: 47%;
 
 
 .swiper-container h2 {
-  font-size: 20px;
   padding: 10px;
   text-align: center;
   width: 50%;
@@ -1905,11 +1942,9 @@ width: 47%;
 .swiper-container .swiper-title h2 {
   color: #b7a643;
   border-bottom: 3px solid #b7a643;
-  font-size: 23.45px;
-  width:186px;
+  width:153px;
 }
 .swiper-container h2 {
-  font-size: 24px;
   width: 50%;
   margin: 15px auto 0px;
 }
@@ -1917,7 +1952,6 @@ width: 47%;
   font-size: 14.35px;
   padding-top: 25px;
   text-align: center;
-  width: 70%;
   margin: 0 auto;
 }
 
@@ -2037,7 +2071,7 @@ figure {
   }
 }
 
-.box {  
+.box {
   /* .boxが「my-fade-in」で状態変化するように指定 */
   animation-name:     my-fade-in;
   animation-duration: 3s;
@@ -2178,8 +2212,8 @@ select option{
 select::-ms-expand {
   display: none;
 }
-select:-moz-focusring { 
-  color: transparent; 
+select:-moz-focusring {
+  color: transparent;
   text-shadow: 0 0 0 #828c9a;
 }
 
@@ -2348,9 +2382,5 @@ label.textarea{
 
 
 
-	
+
 }
-
-
-
-

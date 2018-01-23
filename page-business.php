@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Business 
+ * Template Name: Business
  * The template used for displaying fullwidth page content in fullwidth.php
  *
  * @package ultrabootstrap
@@ -11,7 +11,7 @@ get_header(); ?>
       <div class="row">
         <div class="animate-box">
           <div class="col-md-8 col-md-offset-2 text-center fh5co-heading business_h1">
-            <h1>こんなことができる。SOTOCHIKUを用いた空間の形。</h1>
+            <h2>こんなことができる。SOTOCHIKUを用いた空間の形。</h2>
             <p>
               外にあったものを内部に持ち込むSOTOCHIKUは様々な用途に用いることが可能です。
               今まで500件以上の空間プロジェクトの企画・デザイン・製作・施工を手がけてきました。
@@ -24,7 +24,7 @@ get_header(); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/business_01.png" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive" />
             <div class="blog-text">
               <p>新たにつくるものと外部にあった風化したものを組み合わせたSOTOCHIKUの真骨頂。</p>
-            </div> 
+            </div>
           </div>
         </div>
 
@@ -33,7 +33,7 @@ get_header(); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/business_02.png" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive" />
             <div class="blog-text">
               <p>エントランス/ファサードサイン（看板）/壁一面のみ/扉など空間の一部分にSOTOCHIKUを取り入れる</p>
-            </div> 
+            </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-6">
@@ -41,7 +41,7 @@ get_header(); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/business_03.png" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive" />
             <div class="blog-text">
               <p>通常の原状回復から、SOTOCHIKUや新たに内装デザインを盛り込みながら原状回復・バリューアップまで。ビルオーナー様やデベロッパー会社様向け</p>
-            </div> 
+            </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-6">
@@ -49,7 +49,7 @@ get_header(); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/business_04.png" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive" />
             <div class="blog-text">
               <p>リノベーションからコンバージョンまで、お持ちの物件の資産価値を高める方法をご提案致します。</p>
-            </div> 
+            </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-6">
@@ -57,7 +57,7 @@ get_header(); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/business_05.png" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive" />
             <div class="blog-text">
               <p>シンプルな緑化から、こだわりの緑化空間までご提案。SOTOCHIKUと花や植物は相性抜群です。</p>
-            </div> 
+            </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-6">
@@ -65,7 +65,7 @@ get_header(); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/business_06.png" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive" />
             <div class="blog-text">
               <p>新たにつくるものと外部にあった風化したものを組み合わせたSOTOCHIKUの真骨頂。</p>
-            </div> 
+            </div>
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: About 
+ * Template Name: About
  * The template used for displaying fullwidth page content in fullwidth.php
  *
  * @package ultrabootstrap
@@ -44,7 +44,7 @@ get_header(); ?>
                     <span class="tow_buttom_1 dismantling_buttom">空間デザイン</span>
                   </div>
                 </div>
-                
+
                 <div class="call-to-action_1">
                   <span class="tow_buttom_word equal">=</span>
                   <p class="download_1">SOTOCHIKU</p>
@@ -73,7 +73,7 @@ get_header(); ?>
 <img src="<?php echo get_template_directory_uri(); ?>/images/about2.jpg" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive">
       </div>
       <div class="col-md-12 col-md-offset-13 subtext" style="margin-top: 50px;">
-        <p>
+        <p style="text-align: center;">
         SOTOCHIKUと通常の空間デザインの取り組み方は大きく異なる点があります。通常の空間デザインでは全て新しい素材で制作されますが、SOTOCHIKUは時代をタイムスリップし様々な場所から外部にあった素材を集め新しい空間に組み込みます。そのため使用した場所には、人によっては新しいというより『古い』や『汚い』といった感情を抱くことがあるかもしれません。しかしそれを私たちは逆に新しさや温もりと感じ制作しています。そちらを理解して頂きご注文頂けたらと思います。</p>
       </div>
     </div>
@@ -97,7 +97,7 @@ get_header(); ?>
 
 <div class="swiper-title">
 <h2>素材と対話する</h2>
-<p>SOTOCHIKUの素材には、外部にあった古びたものを探し、切り取るなどしたもの”探す”と、自然の作用によって材料が<br>変化するよう仕込んだもの”仕込む”の２つの方法があります。どちらも、予定調和に陥らない「発見」に満ちています。</p>
+<p>SOTOCHIKUの素材には、外部にあった古びたものを探し、切り取るなどしたもの”探す”と、自然の作用によって材料が変化するよう仕込んだもの”仕込む”の２つの方法があります。どちらも、予定調和に陥らない「発見」に満ちています。</p>
 </div>
 <div class="swiper-wrapper">
 <div class="swiper-slide">
