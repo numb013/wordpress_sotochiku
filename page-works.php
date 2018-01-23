@@ -22,8 +22,8 @@ $query = new WP_Query(
     <div class="container">
       <div class="row">
         <div class="animate-box">
-          <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-            <h1>WORKS</h1>
+          <div class="works_box fh5co-heading">
+            <h2>WORKS</h2>
             <p style="text-align: center;">Construction examples of proacessing</p>
           </div>
         </div>

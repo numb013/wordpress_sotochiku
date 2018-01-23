@@ -11,7 +11,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<div class="works_box fh5co-heading">
 						<h1>MATERIAL</h1>
 						<p>あつめられたSOTOCHIKU素材</p>
 						<br>

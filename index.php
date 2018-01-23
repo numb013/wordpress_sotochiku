@@ -57,10 +57,10 @@ get_header(); ?>
         <div class="text-wrap main_img" style="margin:0px;">
           <div class="text-inner">
             <div class="row box">
-              <div class="col-md-10 col-md-offset-1 to-animate">
-                <h2 style="color: #fff;font-size: 17px; margin-top: 150px;">Bring the weather exposed walls to the interior.</h2>
+              <div class="col-md-10 col-md-offset-1 to-animate" style="color: #fff;>
+                <h2 style="font-size: 17px; margin-top: 150px;">Bring the weather exposed walls to the interior.</h2>
                   <br>
-                  <p style="color: #fff;font-size:10px;margin-top: 48px;">s o t o c h i k u</p>
+                  <p style="font-size:10px;margin-top: 48px;">s o t o c h i k u</p>
                   <h1 style="font-size: 25px;">外&nbsp;&nbsp;&nbsp;&nbsp;築</h1>
                   <br>
                   <br>

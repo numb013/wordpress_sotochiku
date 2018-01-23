@@ -6,31 +6,22 @@
  */
 
 get_header(); ?>
-<div class="spacer">
-<div class="container">
-  <div class="row">
-        <div class="col-sm-9">
-<section class="page-section">
-
-      <div class="detail-content">
-           	
-      	<?php while ( have_posts() ) : the_post(); ?>                    
-  	      <?php get_template_part( 'template-parts/content', 'single' ); ?>
-          
-
-        <?php endwhile; // End of the loop. ?>
-
-    
-        <?php comments_template(); ?>
 
 
-                  </div><!-- /.end of deatil-content -->
-  			 
-</section> <!-- /.end of section -->  
-</div>
-    <div class="col-sm-3"><?php get_sidebar(); ?>
-    </div>
-    </div>
-</div>
-</div>
-<?php get_footer(); ?>
+
+<section id="fh5co-testimony" class="testimony_top" data-section="testimony">
+    <div class="fh5co-testimony">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 section-heading text-center">
+            <div class="<?php echo $class;?> detail-content">
+              <?php while ( have_posts() ) : the_post(); ?>
+                <h2><?php the_title(); ?></h2>
+              <?php the_content(); ?>
+              <?php endwhile; // End of the loop. ?> 
+              <?php //comments_template(); ?>         
+            </div> <!-- /.end of detail-content -->
+        </div>
+    </div>    </div>
+  </div>
+</section>

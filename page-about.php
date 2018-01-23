@@ -17,7 +17,7 @@ get_header(); ?>
               <div class="to-animate">
                 <h2 style="color: #000;margin-top: 40px;">「物語の語り手」としての空間をつくる</h2>
                 <br>
-                <p>
+                <p class="text">
                   外で風雨に晒されて、長い時を過ごした建物の壁や建材には、その場所の歴史や持ち主との時が刻み込まれた豊かな
                   表情のものがたくさんあります。 しかし、そのような古い建物は、用途が無くなるとあたりまえのように壊され、こ
                   の世界からことごとく姿を消していきます。 そんな、そのままにしていては失われてしまうものを、"SOTOCHIKU
@@ -38,7 +38,7 @@ get_header(); ?>
             <div class="row effect">
               <div class="col-md-offset-1">
                 <div class="call-action">
-                  <div class="call-width">
+<!--                   <div class="call-width">
                     <span class="tow_buttom_1 material_buttom">SOTOCHIKU素材</span>
                     <span class="tow_buttom_word">+</span>
                     <span class="tow_buttom_1 dismantling_buttom">空間デザイン</span>
@@ -48,8 +48,8 @@ get_header(); ?>
                 <div class="call-to-action_1">
                   <span class="tow_buttom_word equal">=</span>
                   <p class="download_1">SOTOCHIKU</p>
-                </div>
-                  <p style="color: #fff;">
+                </div> -->
+                  <p class='text' style="color: #fff;">
                   新たにつくるものと外部にあった風化したものを組み合わせることにより、
                   古さと新しさが混在した新たな価値を吹き込むことが可能になりました。
                   実際に長い時を過した素材であれば、決して真新しい材料のみでつくられ
@@ -69,13 +69,14 @@ get_header(); ?>
   <section id="fh5co-testimony" data-section="team" style="padding-bottom: 50px;">
     <div class="container">
       <div class="row">
-        <div>
-<img src="<?php echo get_template_directory_uri(); ?>/images/about2.jpg" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive">
-      </div>
-      <div class="col-md-12 col-md-offset-13 subtext" style="margin-top: 50px;">
-        <p style="text-align: center;">
+
+      <div class="col-md-12 col-md-offset-13 subtext" style="margin-bottom: 50px;">
+        <p class='text'>
         SOTOCHIKUと通常の空間デザインの取り組み方は大きく異なる点があります。通常の空間デザインでは全て新しい素材で制作されますが、SOTOCHIKUは時代をタイムスリップし様々な場所から外部にあった素材を集め新しい空間に組み込みます。そのため使用した場所には、人によっては新しいというより『古い』や『汚い』といった感情を抱くことがあるかもしれません。しかしそれを私たちは逆に新しさや温もりと感じ制作しています。そちらを理解して頂きご注文頂けたらと思います。</p>
       </div>
+      <div>
+<img src="<?php echo get_template_directory_uri(); ?>/images/about3.jpg" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive">
+    </div>
     </div>
     </div>
   </section>
@@ -97,41 +98,42 @@ get_header(); ?>
 
 <div class="swiper-title">
 <h2>素材と対話する</h2>
-<p>SOTOCHIKUの素材には、外部にあった古びたものを探し、切り取るなどしたもの”探す”と、自然の作用によって材料が変化するよう仕込んだもの”仕込む”の２つの方法があります。どちらも、予定調和に陥らない「発見」に満ちています。</p>
+<p>SOTOCHIKUの素材には、<a href=<?php echo home_url('providing'); ?>>皆様からご提供頂いた素材を使用する<素材提供></a>の他に外部にあった古びたものを探し、切り取るなどしたもの”探す”と、
+自然の作用によって材料が変化するよう仕込んだもの”仕込む”の２つの方法があります。どちらも、予定調和に陥らない「発見」に満ちて
+います。</p>
 </div>
 <div class="swiper-wrapper">
-<div class="swiper-slide">
-<div class="container">
-<img src="<?php echo get_template_directory_uri(); ?>/images/about5.jpg" class="img-responsive">
-          <h2>探す</h2>
-          <p class="swiper-text">saguru</p>
-          <p>
-            時間の蓄積が感じられる建物や壁などから素材を切り取ります。私たちが価値を認める素材は、都市の表通りでは
-            なかなか見つけることができません。表通りでは誰もが価値を認めるように、表層をいつも新しく保とうとするから
-            です。逆に、古くて、一見壊すしかないように思われる、ありふれた建物が多く残された裏通りこそ、長く人に愛さ
-            れる「本物」の空間として再生される可能性を秘めた素材が眠っていることが多いです。
-          </p>
-        </div>
-</div>
-<div class="swiper-slide">
-        <div>
-<img src="<?php echo get_template_directory_uri(); ?>/images/about_s_1.jpg" class="img-responsive">
-          <h2>仕込む</h2>
-        <p class="swiper-text">shikomu</p>
-          <p>
-海・山・川・大地・生物など地球上のあらゆるものの習性を利用し素材を仕込みます。写真は砂浜に寄せる波が
-鉄板に描く錆の痕跡。「海染め」と呼ぶ。
-          </p>
-        </div>
-</div>
-
+  <div class="swiper-slide">
+    <div class="container">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/about5.jpg" class="img-responsive">
+      <h2>探す</h2>
+      <p class="swiper-text">sagasu</p>
+      <p>
+        時間の蓄積が感じられる建物や壁などから素材を切り取ります。私たちが価値を認める素材は、都市の表通りでは
+        なかなか見つけることができません。表通りでは誰もが価値を認めるように、表層をいつも新しく保とうとするから
+        です。逆に、古くて、一見壊すしかないように思われる、ありふれた建物が多く残された裏通りこそ、長く人に愛さ
+        れる「本物」の空間として再生される可能性を秘めた素材が眠っていることが多いです。
+      </p>
+    </div>
+  </div>
+  <div class="swiper-slide">
+    <div>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/about_s_1.jpg" class="img-responsive">
+      <h2>仕込む</h2>
+      <p class="swiper-text">shikomu</p>
+      <p>
+        海・山・川・大地・生物など地球上のあらゆるものの習性を利用し素材を仕込みます。写真は砂浜に寄せる波が
+        鉄板に描く錆の痕跡。「海染め」と呼ぶ。
+      </p>
+    </div>
+  </div>
 </div>
 
 <div class="swiper-button-next"></div>
 <div class="swiper-button-prev"></div>
 </div>
 
-
+<!-- 
 
 
 <div style="margin: 130px 80px 30px 80px;">
@@ -166,6 +168,8 @@ get_header(); ?>
       </div>
     </div>
   </section>
+ -->
+
 
   <section id="fh5co-team" data-section="team" style="background: #858585;">
     <div class="fh5co-team">
